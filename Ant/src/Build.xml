@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="print" default="study" >
+<!-- My Name is Nawazish -->
+<target name="study" depends="college"           />
+<target name="college" depends="university"></target>
+<!-- College is important for university -->
+<target name="university" ></target>
+<property name="Build.dir" location="build"  />
+<property name="doc.dir" location="doc"  />
+
+</project>
